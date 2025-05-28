@@ -17,3 +17,5 @@
 
     参考:[vue3+vite使用iconify图标 - 知乎](https://zhuanlan.zhihu.com/p/688842750)
 
+4. 集成了`Eslint @9xx`版本用于代码检查
+
