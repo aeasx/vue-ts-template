@@ -14,9 +14,13 @@
       <i-icon-park-outline:align-text-left-one />
     </template>
     ```
+    
 
     参考:[vue3+vite使用iconify图标 - 知乎](https://zhuanlan.zhihu.com/p/688842750)
 
 4. 集成了`Eslint @9xx`版本用于代码检查 <br/> 
     参考: <br/>  [vue3+vite项目配置ESlint](https://developer.aliyun.com/article/1483837)  <br/>   [Vue3+ TypeScript中如何使用Eslint V9.0.0](https://juejin.cn/post/7358352353295368232)
 
+## (2)开发环境
+
+1. 包管理工具 `pnpm`  verson: 10.11.0
