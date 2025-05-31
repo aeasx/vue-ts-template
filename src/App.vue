@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import HelloWorld from '@components/HelloWorld.vue';
+</script>
+
 <template>
-  <div class="w-[300px] h-[300px] bg-sky-500">App.vue</div>
+  <div class="w-[300px] h-[300px] bg-sky-500">
+    App.vue
+  </div>
 
   <HelloWorld />
 
@@ -7,9 +13,3 @@
   <i-carbon-accessibility class="text-[100px] text-[red]" />
   <i-icon-park-outline:align-text-left-one />
 </template>
-
-<script setup lang="ts">
-import HelloWorld from '@components/HelloWorld.vue';
-</script>
-
-<style lang="scss" scoped></style>

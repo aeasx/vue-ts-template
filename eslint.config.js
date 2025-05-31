@@ -1,29 +1,18 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import tseslint from 'typescript-eslint';
-import pluginVue from 'eslint-plugin-vue';
-import { defineConfig } from 'eslint/config';
+import antfu from '@antfu/eslint-config';
 
-export default defineConfig([
-  // ts 默认推荐规则
-  tseslint.configs.recommended,
-
-  // Vue3 基础推荐规则
-  pluginVue.configs['flat/essential'],
-
-  // js 文件默认推荐规则
-  {
-    files: ['**/*.{js,mjs,cjs,ts,mts,cts,vue}'],
-    plugins: { js },
-    extends: ['js/recommended'],
-  },
-  {
-    files: ['**/*.{js,mjs,cjs,ts,mts,cts,vue}'],
-    languageOptions: { globals: { ...globals.browser, ...globals.node } },
+export default antfu({
+  // 开始代码样式格式化
+  stylistic: {
+    semi: true,
   },
 
-  {
-    files: ['**/*.vue'],
-    languageOptions: { parserOptions: { parser: tseslint.parser } },
+  // 运行 npx eslint 会提示你缺少的插件
+  formatters: {
+    css: true,
+    html: true,
+    markdown: true,
+    scss: true,
+    json: true,
+    jsonc: true,
   },
-]);
+});
