@@ -17,7 +17,7 @@
 
    参考:[vue3+vite使用iconify图标 - 知乎](https://zhuanlan.zhihu.com/p/688842750)
 
-4. 集成了 antfu 的 Eslint配置用于代码检查与格式化
+4. 集成了 antfu 的 Eslint配置用于代码检查与格式化 <br/>
    参考:
 
    1. [vue3+vite项目配置ESlint](https://developer.aliyun.com/article/1483837)
