@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite';
+import path from 'node:path';
 import vue from '@vitejs/plugin-vue';
 
+import IconsResolver from 'unplugin-icons/resolver';
 // 配置离线使用 Iconify 图标
 import Icons from 'unplugin-icons/vite';
-import IconsResolver from 'unplugin-icons/resolver';
 import Components from 'unplugin-vue-components/vite';
 
-import path from 'path';
+import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({

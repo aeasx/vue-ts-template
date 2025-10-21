@@ -1,15 +1,13 @@
 <script setup lang="ts">
 import HelloWorld from '@components/HelloWorld.vue';
+import ExampleIcon from './components/ExampleIcon.vue';
 </script>
 
 <template>
-  <div class="w-[300px] h-[300px] bg-sky-500">
+  <h1 class="text-[24px] font-bold w-full flex justify-center items-center">
     App.vue
-  </div>
+  </h1>
 
   <HelloWorld />
-
-  <!-- 离线图标使用方式 -->
-  <i-carbon-accessibility class="text-[100px] text-[red]" />
-  <i-icon-park-outline:align-text-left-one />
+  <ExampleIcon />
 </template>

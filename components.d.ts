@@ -8,6 +8,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ExampleIcon: typeof import('./src/components/ExampleIcon.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     ICarbonAccessibility: typeof import('~icons/carbon/accessibility')['default']
     'IIconParkOutline:alignTextLeftOne': typeof import('~icons/icon-park-outline/align-text-left-one')['default']
