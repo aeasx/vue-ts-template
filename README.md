@@ -5,19 +5,7 @@
 1. 集成了TailWindCss3
 2. 在Vite.config.ts配置了路径别名，可以直接使用 `@` 符号访问 `src` 目录下的内容，同时
    可以使用 `@utils` 和 `@components` 访问对应目录下的内容
-3. 可以在Vue模版中直接使用Iconify图标，使用方式如下：
-
-   ```vue
-   <template>
-     <!-- 离线图标使用方式 -->
-     <i-carbon-accessibility class="text-[100px] text-[red]" />
-     <i-icon-park-outline:align-text-left-one />
-   </template>
-   ```
-
-   参考:[vue3+vite使用iconify图标 - 知乎](https://zhuanlan.zhihu.com/p/688842750)
-
-4. 集成了 antfu 的 Eslint配置用于代码检查与格式化 <br/>
+3. 集成了 antfu 的 Eslint配置用于代码检查与格式化 `<br/>`
    参考:
 
    1. [vue3+vite项目配置ESlint](https://developer.aliyun.com/article/1483837)
