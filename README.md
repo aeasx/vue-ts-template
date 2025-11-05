@@ -2,7 +2,7 @@
 
 ## (1)主要内容
 
-1. 集成了TailWindCss3
+1. 集成了TailWindCssV4、Pinia、Vue-Router、ElementUI-Plus组件库
 2. 在Vite.config.ts配置了路径别名，可以直接使用 `@` 符号访问 `src` 目录下的内容，同时
    可以使用 `@utils` 和 `@components` 访问对应目录下的内容
 3. 集成了 antfu 的 Eslint配置用于代码检查与格式化 `<br/>`

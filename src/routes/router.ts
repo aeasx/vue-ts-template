@@ -1,5 +1,5 @@
-import AboutView from '@/components/AboutView.vue';
-import HomeView from '@/components/HomeView.vue';
+import AboutView from '@/pages/AboutView.vue';
+import HomeView from '@/pages/HomeView.vue';
 
 export const routes = [
   {
