@@ -1,17 +1,16 @@
-<script setup lang="ts">
-import { Icon } from '@iconify/vue';
-import Child from './components/Child.vue';
-</script>
-
 <template>
-  <div>
-    <h1>App.vue</h1>
-    <Icon icon="mdi-light:home" />
-    <Child v-slot="slotProps">
-      来自子组件的数据
-      <span class="text-red-400">
-        {{ slotProps.childData }}
-      </span>
-    </Child>
-  </div>
+  <h1>Hello App!</h1>
+  <p><strong>Current route path:</strong> {{ $route.fullPath }}</p>
+  <nav>
+    <RouterLink to="/">
+      Go to Home
+    </RouterLink>
+    <RouterLink to="/about">
+      Go to About
+    </RouterLink>
+  </nav>
+  <main>
+    <!-- 路由视图（类似与插槽） -->
+    <RouterView />
+  </main>
 </template>
