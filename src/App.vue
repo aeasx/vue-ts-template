@@ -1,12 +1,10 @@
 <template>
-  <h1>Hello App!</h1>
-  <p><strong>Current route path:</strong> {{ $route.fullPath }}</p>
-  <nav>
+  <nav class="w-full h-10 bg-[#222] flex text-white *:text-blue-300 gap-2">
     <RouterLink to="/">
-      Go to Home
+      首页
     </RouterLink>
     <RouterLink to="/about">
-      Go to About
+      关于
     </RouterLink>
   </nav>
   <main>
